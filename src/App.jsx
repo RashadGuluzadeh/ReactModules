@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import React from 'react'
 import './App.css'
+import Profile from './components/Profile'
 
 function App() {
 
   return (
     <div className="App">
-     <h1>git checkout "branch name" </h1>
+      <Profile />
     </div>
   )
 }
