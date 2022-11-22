@@ -1,11 +1,12 @@
 import React from 'react'
 import './App.css'
+import Dice from './components/Dice'
 
 function App() {
 
   return (
     <div className="App">
-     <h1>git checkout "branch name" </h1>
+     <Dice />
     </div>
   )
 }
