@@ -93,7 +93,7 @@ export default class App extends React.Component {
               required
             />
           </label>
-          <button disabled={!this.state.isTrue}>Formu göndərin</button>
+          <button  className="Form-btn" disabled={!this.state.isTrue}>Formu göndərin</button>
         </form>
       </div>
     );
