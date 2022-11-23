@@ -1,11 +1,13 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './App.css'
+import  CustomButton  from './components/CustomButton'
 
 function App() {
-
   return (
     <div className="App">
-     <h1>git checkout "branch name" </h1>
+     <CustomButton  text='Button' warnMessage='ok' hint="ok"/>
+     <CustomButton  text='Submit' warnMessage='alert'/>
+     <CustomButton  text='Check' warnMessage='warning'/>
     </div>
   )
 }
